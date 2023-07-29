@@ -2,8 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectArticles, filterArticles } from "../features/articles/articlesSlice";
 import Search from "./Search";
-
 // Import Link and useSearchParams from React Router
+import { Link } from "react-router-dom";
 
 export default function Articles () {
   const articles = useSelector(selectArticles);
@@ -22,9 +22,9 @@ export default function Articles () {
         { filteredArticles.map(article => (
           <li key={article.slug}>
             {/* Replace these a tags! */}
-            <a href={`${article.slug}`}>
+            <Link to={`${article.slug}`}>
               {article.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
