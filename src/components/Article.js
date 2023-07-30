@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 
 export default function Article () {
   const articles = useSelector(selectArticles)
+  // Extract title property from object
   const { title } = useParams()
   const article = articles[title]
 
