@@ -1,6 +1,6 @@
 ## About
 
-This project is a part of the <strong>React Router</strong> lesson of the Codecademy Full Stack Engineer path. **Note** The initial commit includes default files provided by Codecademy (www.codecademy.com). I have built upon this starting point to develop the project further.
+This project is a part of the <strong>React Router</strong> lesson of the <strong>Codecademy Full Stack Engineer</strong> path. **Note:** The initial commit includes default files provided by Codecademy (www.codecademy.com). I have built upon this starting point to develop the project further.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
